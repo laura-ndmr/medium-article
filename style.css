@@ -1,0 +1,83 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1544892504-5a42d285ab6f?auto=format&fit=crop&q=80&w=3164&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 50% 60%;
+  color: white;
+  padding: 120px 0;
+}
+
+.title {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #333640;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Abril Fatface;
+}
+
+h2 {
+  color: #575F7D;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Abril Fatface;
+}
+
+.link {
+  color: #494949;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Montserrat';
+}
+
+.link:hover {
+  background-color: rgb(62, 59, 59, 0.5);
+  color: white;
+}
+
+@media (max-width: 1200) {
+  /* For a screen < 1200px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992) {
+  /* For a screen < 992px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 768px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 576px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
